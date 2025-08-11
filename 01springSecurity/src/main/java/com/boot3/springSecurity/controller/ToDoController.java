@@ -24,8 +24,8 @@ public class ToDoController {
 	}
 
 	@PostMapping("/users/{username}/toDos")
-	public void createToDosForSpecificUser(@PathVariable String username, @RequestBody Todo toDo) {
-		System.out.println("TODO is created successfully.");
+	public String createToDosForSpecificUser(@PathVariable String username, @RequestBody Todo toDo) {
+		return "TODO is created successfully.";
 	}
 }
 

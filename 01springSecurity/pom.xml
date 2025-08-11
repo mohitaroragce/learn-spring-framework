@@ -13,4 +13,16 @@
 	<name>springSecurity</name>
 	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot</description>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+			<version>3.5.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
+			<version>3.5.4</version>
+		</dependency>
+	</dependencies>
 </project>
