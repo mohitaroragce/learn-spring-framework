@@ -60,6 +60,7 @@
 
 	<modules>
 		<module>01springSecurity</module>
+		<module>02learnOauth</module>
 	</modules>
 	<build>
 		<plugins>
