@@ -6,22 +6,16 @@
 		<groupId>learn.spring.framework</groupId>
 		<artifactId>learn-spring-framework</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath />
 	</parent>
-	<groupId>com.boot3</groupId>
-	<artifactId>01springSecurity</artifactId>
-	<name>springSecurity</name>
-	<packaging>jar</packaging>
-	<description>Demo project for Spring Boot</description>
+	<groupId>com.oauth</groupId>
+	<artifactId>02learnOauth</artifactId>
+	<name>learnOauth</name>
+	<description>Learning Oauth</description>
 	<dependencies>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-			<version>3.5.4</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
+			<artifactId>spring-boot-starter-oauth2-client</artifactId>
 			<version>3.5.4</version>
 		</dependency>
 	</dependencies>
